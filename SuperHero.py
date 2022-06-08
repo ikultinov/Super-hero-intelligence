@@ -16,7 +16,7 @@ def most_intelligent(*names):
 
     sorted_tuple = sorted(intelligence_dict.items(), key=lambda x: x[1])
     intelligence_dict = dict(sorted_tuple)
-    print(list(intelligence_dict.keys())[0])
+    print(f'Самый умный супергерой это: {list(intelligence_dict.keys())[0]}')
     return list(intelligence_dict.keys())[0]
 
 
